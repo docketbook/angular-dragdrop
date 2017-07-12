@@ -29,7 +29,7 @@
 
 (function (window, angular, $, undefined) {
 'use strict';
-
+var $ = require("jquery");
 var jqyoui = angular.module('ngDragDrop', []).service('ngDragDropService', ['$timeout', '$parse', '$q', function($timeout, $parse, $q) {
     this.draggableScope = null;
     this.droppableScope = null;
